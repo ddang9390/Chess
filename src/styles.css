@@ -1,0 +1,28 @@
+.board{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.square{
+    border: 1px solid black;
+    max-width: 100px;
+    max-height: 100px;
+
+    flex-basis: 100%;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.hovered-square{
+    background-color: gray;
+}
