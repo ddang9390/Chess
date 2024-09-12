@@ -15,14 +15,18 @@
     flex-basis: 100%;
 }
 
-.white{
-    background-color: white;
+.beige{
+    background-color: beige;
 }
 
-.black{
-    background-color: black;
+.brown{
+    background-color: brown;
 }
 
 .hovered-square{
     background-color: gray;
+}
+
+.piece{
+    width: 100px;
 }
